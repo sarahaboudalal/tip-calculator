@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Calculator</title>
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <img src="./images/logo.svg" alt="splitter logo" title="logo">
+ <div id="container">
+  <div id="input-card">
+    <h2>Bill</h2>
+    <form>
+        <input class="bill-input" type="number" placeholder="0">
+    </form>
+    <h2> Select Tip %</h2>
+        <button class="btns" value="5">5%</button>
+        <button class="btns" value="10">10%</button>
+        <button class="btns" value="15">15%</button>
+        <button class="btns" value="20">20%</button>
+        <button class="btns" value="25">25%</button>
+        <button class="btns" value="50">50%</button>
+        <form>
+            <input class="custom" type="number" placeholder="Custom %">
+        </form>
+    <h2 id="nb-of-people">Number Of people</h2>
+    <input class="people-input" type="number" placeholder="1">
+  </div>
+  <div id="output-card">
+    <h2>Tip Amount</h2>
+    <section>/person</section>
+    <h3 class="tip-amount">$0.00</h3>
+    <h2>Total</h2>
+    <section>/person</section>
+    <h3 class="total-amount">$0.00</h3>
+    <button class="reset-button">RESET</button>
+</div>
+ </div>
+</body>
+<script src="script.js"></script>
+
+</html>
